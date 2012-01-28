@@ -1,0 +1,16 @@
+<header>
+  <% logo = image_tag("MadPark.png", :alt => "Sample App", :class => "round") %>
+  <%= link_to logo, root_path %>
+  <nav class="round">
+  <div id="subnav"><div id="subnav2">
+    <ul id="subnavigation">
+    <li><%= link_to "Home", root_path %></li></li>&nbsp;|&nbsp;
+    <li><%= link_to "About", about_path %></li>&nbsp;|&nbsp;
+    <li><%= link_to "People", people_path %></li>&nbsp;|&nbsp;
+    <li><%= link_to "Research", research_path %></li>&nbsp;|&nbsp;
+    <li><%= link_to "Investment Process", investmentProcess_path %></li>&nbsp;|&nbsp;
+    <li><%= link_to "Contact", contact_path %></li>&nbsp;|&nbsp;
+    <li><div style='float:right;'><a href="/investor/">Investor Login</a></div></li>
+</ul>
+</div>
+</header>
